@@ -87,7 +87,6 @@ public class MainScene {
                 alerta.setTitle("Campos  vacios");
                 alerta.setHeaderText("Tienes campos vacíos");
                 alerta.show();
-                System.out.println("maricon");
             }
             else{
                 tasks.add(new task(description,title,initialDate,finalDate));
